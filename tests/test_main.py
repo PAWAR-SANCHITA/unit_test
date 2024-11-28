@@ -1,7 +1,7 @@
 import sys
 import os
 
-# Add the parent directory (unit_testing) to sys.path
+# using pytest testing i set path for main.py
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'app')))
 
 
